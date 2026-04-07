@@ -84,13 +84,6 @@ Public dataset source:
 
 - [London Datastore: SmartMeter Energy Use Data in London Households](https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d/)
 
-## Important Documents
-
-- Updated Review-II report:
-  - `reports/Review2_RohithGaneshKanchi_23BCE5049.pdf`
-- Detailed IEEE-style paper:
-  - `paper/Review2_RohithGaneshKanchi_23BCE5049.pdf`
-
 ## Repository Structure
 
 ```text
