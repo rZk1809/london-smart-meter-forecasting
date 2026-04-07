@@ -14,7 +14,6 @@ data/processed/catboost_info/
 outputs/
 results/
 results/inherited/
-
 paper/*.aux
 paper/*.bbl
 paper/*.blg
