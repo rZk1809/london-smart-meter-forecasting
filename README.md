@@ -5,9 +5,6 @@ This repository is a compact public package for the Predictive Analytics Review-
 ## Student Details
 
 - Name: Rohith Ganesh Kanchi
-- Register Number: 23BCE5049
-- Phone: +91 7305636052
-- Email: rohithganesh.kanchi2023@vitstudent.ac.in
 
 ## Project Title
 
@@ -90,16 +87,11 @@ Public dataset source:
 
 - [London Datastore: SmartMeter Energy Use Data in London Households](https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d/)
 
-Low Carbon London reference report:
-
-- [Low Carbon London: A Learning Journey](https://library.ukpowernetworks.co.uk/library/en/gb/files/innovation/Low%20Carbon%20London/Project%20Publications/2014-03-14%20LCL%20Learning%20Journey%20Final.pdf)
-
 ## Important Documents
 
 - Updated Review-II report:
-  - `reports/Review_II_Assignment_III.md`
+  - `reports/Review2_RohithGaneshKanchi_23BCE5049.pdf`
 - Detailed IEEE-style paper:
-  - `paper/ieee_small_sample_hybrid_paper.tex`
   - `paper/Review2_RohithGaneshKanchi_23BCE5049.pdf`
 
 ## Repository Structure
