@@ -16,10 +16,7 @@ This public repository is intentionally compact. It does not expose the full raw
 
 - a `submission_package/core_code/` folder with 5 core source files
 - a `submission_package/results_images/` folder with the main result figures
-- a `submission_package/docs/` folder with the final report and paper PDFs
 - a `submission_package/results_tables/` folder with the main result tables
-- a `reports/` folder with the updated Review-II report
-- a `paper/` folder with the detailed IEEE-style paper
 
 ## Submission Package
 
@@ -104,7 +101,6 @@ Public dataset source:
 |   |-- results_images/
 |   |-- results_tables/
 |   `-- docs/
-|-- reports/
 `-- paper/
 ```
 
