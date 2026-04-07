@@ -1,0 +1,116 @@
+{
+  "variant": "CatBoost+CARE_Full",
+  "seed": 42,
+  "training_time_seconds": 23.497278599999845,
+  "best_epoch": 1,
+  "runtime": {
+    "resolved_device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "cuda_available": true,
+    "amp_enabled": false,
+    "torch_version": "2.7.1+cu118"
+  },
+  "subset_thresholds": {
+    "peak_threshold": 67279.25779818,
+    "volatility_threshold": 2330.695987343939,
+    "volatility_window": 7
+  },
+  "hard_case_definition": {
+    "source": "validation_catboost_absolute_error",
+    "percentile": 90.0,
+    "threshold": 2268.810016262167,
+    "validation_mean_abs_error": 1240.0336214833444,
+    "validation_max_abs_error": 5864.461705938207,
+    "validation_rows": 110,
+    "test_hard_case_rows": 18,
+    "test_total_rows": 112,
+    "test_hard_case_share": 0.16071428571428573,
+    "test_catboost_mean_abs_error": 1907.4713751017782
+  },
+  "test_metrics": {
+    "final_overall": {
+      "MAE": 1861.9893299439213,
+      "RMSE": 5227.519637600846,
+      "MAPE": 24.56247888204234,
+      "R2": 0.2318634882453975,
+      "SMAPE": 4.036390585897769,
+      "MedAE": 1110.2400880834393,
+      "Direction_Accuracy": 55.85585585585586
+    },
+    "final_high_volatility": {
+      "MAE": 1483.7339209174056,
+      "RMSE": 2159.620867513545,
+      "MAPE": 2.5954511882448044,
+      "R2": 0.18319224109120646,
+      "SMAPE": 2.5632091120713136,
+      "MedAE": 859.471163163551,
+      "Direction_Accuracy": 59.09090909090909
+    },
+    "final_hard_cases": {
+      "MAE": 5961.220598539863,
+      "RMSE": 12686.301012134927,
+      "MAPE": 143.12234803700653,
+      "R2": 0.16161787907643144,
+      "SMAPE": 15.433293323067776,
+      "MedAE": 2861.251372224786,
+      "Direction_Accuracy": 58.8235294117647
+    }
+  },
+  "catboost_baseline_metrics": {
+    "cb_overall": {
+      "MAE": 1907.4713751017784,
+      "RMSE": 5151.333210170692,
+      "MAPE": 24.070588310404453,
+      "R2": 0.2540901390451922,
+      "SMAPE": 4.13536164565297,
+      "MedAE": 1274.2309377216043,
+      "Direction_Accuracy": 57.65765765765766
+    },
+    "cb_high_volatility": {
+      "MAE": 1366.3776567292696,
+      "RMSE": 2057.145022985897,
+      "MAPE": 2.391194791622691,
+      "R2": 0.2588695744387406,
+      "SMAPE": 2.3603472562267656,
+      "MedAE": 859.471163163551,
+      "Direction_Accuracy": 68.18181818181819
+    },
+    "cb_hard_cases": {
+      "MAE": 6555.437853206805,
+      "RMSE": 12557.093717667929,
+      "MAPE": 140.62346310793276,
+      "R2": 0.17860840317329896,
+      "SMAPE": 16.55804211278741,
+      "MedAE": 3837.7157978199575,
+      "Direction_Accuracy": 76.47058823529412
+    }
+  },
+  "residual_diagnostics_before": {
+    "mean_residual": 128.96337548071455,
+    "std_residual": 5149.718661246661,
+    "min_residual": -50447.98830949283,
+    "max_residual": 5617.61006472422,
+    "mean_abs_residual": 1907.4713751017782,
+    "skew": -8.419397163509913,
+    "kurtosis": 80.16125970653094
+  },
+  "residual_diagnostics_after": {
+    "mean_residual": -277.63216204210863,
+    "std_residual": 5220.141946738834,
+    "min_residual": -51791.890973611786,
+    "max_residual": 5304.205772748421,
+    "mean_abs_residual": 1861.9893299439213,
+    "skew": -8.550050678802416,
+    "kurtosis": 81.74797854008092
+  },
+  "interpretability_records": 3,
+  "seed_summary_paths": {
+    "seed_summary_csv": "C:\\Users\\Lenovo\\Downloads\\LCL-FullData\\results\\harp\\care_seed_summary.csv",
+    "seed_summary_json": "C:\\Users\\Lenovo\\Downloads\\LCL-FullData\\results\\harp\\care_seed_summary.json"
+  },
+  "expert_summary_paths": {},
+  "hard_case_summary_paths": {
+    "results_csv": "C:\\Users\\Lenovo\\Downloads\\LCL-FullData\\results\\harp\\hard_case_summary.csv",
+    "tables_csv": "C:\\Users\\Lenovo\\Downloads\\LCL-FullData\\outputs\\tables\\harp\\hard_case_summary.csv"
+  }
+}
