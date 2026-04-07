@@ -106,28 +106,28 @@ Related source report:
 
 The full public GitHub repository is:
 
-- [https://github.com/rZk1809/LCL-FullData](https://github.com/rZk1809/LCL-FullData)
+- [https://github.com/rZk1809/london-smart-meter-forecasting](https://github.com/rZk1809/london-smart-meter-forecasting)
 
-For faculty review, the most important implementation files are kept in:
+The most important implementation files are kept in:
 
-- `teacher_package/core_code/`
+- `submission_package/core_code/`
 
 ### Core Code Files
 
-1. `01_run_all.py`
-   Main orchestration file for preprocessing, training, evaluation, and report generation.
-
-2. `02_data_loader.py`
+1. `01_data_loader.py`
    Handles data loading, dataset validation, and raw-to-daily aggregation support.
 
-3. `03_feature_engineering.py`
+2. `02_feature_engineering.py`
    Creates leakage-safe calendar, lag, rolling, difference, and percentage-change features.
 
-4. `04_preprocessing.py`
+3. `03_preprocessing.py`
    Applies strict chronological splitting and supervised matrix preparation.
 
-5. `05_modeling_ml.py`
+4. `04_modeling_ml.py`
    Contains the benchmark machine learning models, including CatBoost, XGBoost, LightGBM, and Prophet helpers.
+
+5. `05_evaluation.py`
+   Contains the final metric calculations used for fair comparison.
 
 ### Why These Files Were Chosen
 
@@ -138,6 +138,7 @@ These files were selected because they explain the main successful pipeline:
 - how the feature matrix was built
 - how the chronological split was applied
 - how the strongest models were trained
+- how the final benchmark metrics were calculated
 
 The hybrid extensions are discussed in the report and paper, but the 5 core files above are the clearest code path for understanding the main benchmark result.
 
@@ -180,9 +181,9 @@ Key hybrid findings:
 
 ### Result Images
 
-Important figures for faculty review are kept in:
+Important figures are kept in:
 
-- `teacher_package/results_images/`
+- `submission_package/results_images/`
 
 These include:
 
@@ -218,7 +219,7 @@ GRU and BiLSTM were tested fairly, but they did not beat CatBoost. The likely re
 
 The hybrid models were not useless. They helped answer an important research question:
 
-**Can CatBoost’s remaining error be corrected using retrieval-based or residual hybrid methods?**
+**Can CatBoost's remaining error be corrected using retrieval-based or residual hybrid methods?**
 
 The answer is:
 
@@ -258,3 +259,4 @@ The project approach was correct, methodical, and reproducible. The final public
 - what worked
 - what failed
 - and what should be improved in future work
+

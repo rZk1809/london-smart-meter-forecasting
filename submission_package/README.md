@@ -1,12 +1,12 @@
-# Teacher Package
+# Submission Package
 
-This folder is a compact submission package prepared for quick faculty review.
+This folder is a compact submission package prepared for quick project review.
 
 ## 1. Core Code
 
 Location:
 
-- `teacher_package/core_code/`
+- `submission_package/core_code/`
 
 Included files:
 
@@ -31,7 +31,7 @@ These 5 files were selected because they explain the strongest final benchmark p
 
 Location:
 
-- `teacher_package/results_images/`
+- `submission_package/results_images/`
 
 Included images:
 
@@ -47,7 +47,7 @@ Included images:
 
 Location:
 
-- `teacher_package/results_tables/`
+- `submission_package/results_tables/`
 
 Included files:
 
@@ -60,7 +60,7 @@ Included files:
 
 Location:
 
-- `teacher_package/docs/`
+- `submission_package/docs/`
 
 Included documents:
 
@@ -82,5 +82,5 @@ Main benchmark result:
 
 ## 6. Public Links
 
-- Repository: [https://github.com/rZk1809/LCL-FullData](https://github.com/rZk1809/LCL-FullData)
+- Repository: [https://github.com/rZk1809/london-smart-meter-forecasting](https://github.com/rZk1809/london-smart-meter-forecasting)
 - Dataset: [London Datastore SmartMeter Energy Consumption Data in London Households](https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d/)

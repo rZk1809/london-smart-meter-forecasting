@@ -106,11 +106,11 @@ Related source report:
 
 The full public GitHub repository is:
 
-- [https://github.com/rZk1809/LCL-FullData](https://github.com/rZk1809/LCL-FullData)
+- [https://github.com/rZk1809/london-smart-meter-forecasting](https://github.com/rZk1809/london-smart-meter-forecasting)
 
-For faculty review, the most important implementation files are kept in:
+The most important implementation files are kept in:
 
-- `teacher_package/core_code/`
+- `submission_package/core_code/`
 
 ### Core Code Files
 
@@ -181,9 +181,9 @@ Key hybrid findings:
 
 ### Result Images
 
-Important figures for faculty review are kept in:
+Important figures are kept in:
 
-- `teacher_package/results_images/`
+- `submission_package/results_images/`
 
 These include:
 
@@ -219,7 +219,7 @@ GRU and BiLSTM were tested fairly, but they did not beat CatBoost. The likely re
 
 The hybrid models were not useless. They helped answer an important research question:
 
-**Can CatBoost’s remaining error be corrected using retrieval-based or residual hybrid methods?**
+**Can CatBoost's remaining error be corrected using retrieval-based or residual hybrid methods?**
 
 The answer is:
 
@@ -259,3 +259,4 @@ The project approach was correct, methodical, and reproducible. The final public
 - what worked
 - what failed
 - and what should be improved in future work
+

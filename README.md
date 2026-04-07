@@ -1,6 +1,6 @@
-# Smart-Meter Forecasting Review-II Package
+# London Smart-Meter Forecasting
 
-This repository is a public teacher-facing package for the Predictive Analytics Review-II submission on daily smart-meter energy forecasting.
+This repository is a compact public package for the Predictive Analytics Review-II submission on daily smart-meter energy forecasting.
 
 ## Student Details
 
@@ -15,21 +15,22 @@ Energy Consumption Forecasting Using Machine Learning and Deep Learning Models: 
 
 ## What This Repository Contains
 
-This public repository is intentionally compact. It does not expose the full raw research workspace. Instead, it keeps the most important material needed for a faculty review:
+This public repository is intentionally compact. It does not expose the full raw research workspace. Instead, it keeps the most important material needed to understand the project quickly:
 
-- a `teacher_package/core_code/` folder with 5 core source files
-- a `teacher_package/results_images/` folder with the main result figures
-- a `teacher_package/docs/` folder with the final report and paper PDFs
+- a `submission_package/core_code/` folder with 5 core source files
+- a `submission_package/results_images/` folder with the main result figures
+- a `submission_package/docs/` folder with the final report and paper PDFs
+- a `submission_package/results_tables/` folder with the main result tables
 - a `reports/` folder with the updated Review-II report
 - a `paper/` folder with the detailed IEEE-style paper
 
-## Teacher Package
+## Submission Package
 
 ### Core Code
 
-The main teacher-facing code folder is:
+The main compact code folder is:
 
-- `teacher_package/core_code/`
+- `submission_package/core_code/`
 
 It contains these 5 core files:
 
@@ -46,9 +47,9 @@ It contains these 5 core files:
 
 ### Result Images
 
-The teacher-facing image folder is:
+The main image folder is:
 
-- `teacher_package/results_images/`
+- `submission_package/results_images/`
 
 It contains the main visual results used in the report and paper:
 
@@ -106,7 +107,7 @@ Low Carbon London reference report:
 ```text
 .
 |-- README.md
-|-- teacher_package/
+|-- submission_package/
 |   |-- core_code/
 |   |-- results_images/
 |   |-- results_tables/

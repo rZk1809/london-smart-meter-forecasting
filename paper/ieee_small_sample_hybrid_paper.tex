@@ -26,7 +26,7 @@ Chennai, India\\
 Reg.\ No.: 23BCE5049\\
 Phone: +91 7305636052\\
 rohithganesh.kanchi2023@vitstudent.ac.in\\
-\url{https://github.com/rZk1809/LCL-FullData}}
+\url{https://github.com/rZk1809/london-smart-meter-forecasting}}
 }
 
 \maketitle
@@ -43,7 +43,7 @@ The paper explains the full pipeline in simple language: how the dataset was che
 smart-meter forecasting, load forecasting, CatBoost, tabular time series, small-data forecasting, leakage-safe evaluation, hybrid residual models
 \end{IEEEkeywords}
 
-\noindent\textbf{Public repository:} \url{https://github.com/rZk1809/LCL-FullData}
+\noindent\textbf{Public repository:} \url{https://github.com/rZk1809/london-smart-meter-forecasting}
 
 \noindent\textbf{Official dataset page:} \url{https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d/}
 
@@ -133,7 +133,7 @@ Leakage-safe predictors & 51 \\
 \subsection{Canonical daily dataset}
 The final modeling file is \texttt{data/processed/daily\_agg.parquet}. It contains only two columns: \texttt{ds} for date and \texttt{y} for daily total energy. The file has 829 rows, one for each day from 23 November 2011 to 28 February 2014. A direct local check shows that this file has no missing targets and no duplicate dates. The daily mean is 42,895.91\,kWh and the daily standard deviation is 20,152.11\,kWh. The minimum value is 90.39\,kWh and the maximum is 82,650.49\,kWh.
 
-These checks matter because they answer a basic faculty-level question: \emph{is the dataset trustworthy enough to model?} In this project, the answer is yes for three simple reasons:
+These checks matter because they answer a basic validation question: \emph{is the dataset trustworthy enough to model?} In this project, the answer is yes for three simple reasons:
 \begin{enumerate}
 \item the processed daily file is complete and has no missing target values,
 \item every day appears only once,
@@ -574,7 +574,7 @@ The deep models did not win for three practical reasons.
 
 First, the dataset is too small for them to use their full representational advantage. Second, the strongest patterns are already visible in the engineered predictors. Third, the target is a single aggregate daily series, not a large multivariate high-frequency dataset.
 
-This is an important conclusion for faculty review. The project did not fail to use deep learning correctly. Instead, the results show that deep learning was tested fairly and simply turned out not to be the best fit for this dataset.
+This is an important conclusion for the study. The project did not fail to use deep learning correctly. Instead, the results show that deep learning was tested fairly and simply turned out not to be the best fit for this dataset.
 
 \subsection{Why the hybrid models are still useful}
 Even though the hybrid models did not beat CatBoost on RMSE, they are still useful in three ways.
